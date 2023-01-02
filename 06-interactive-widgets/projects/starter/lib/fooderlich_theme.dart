@@ -60,6 +60,7 @@ class FooderlichTheme {
 
   static ThemeData light() {
     return ThemeData(
+      primarySwatch: Colors.green,
       brightness: Brightness.light,
       checkboxTheme: CheckboxThemeData(
         fillColor: MaterialStateColor.resolveWith((states) {
@@ -83,6 +84,7 @@ class FooderlichTheme {
 
   static ThemeData dark() {
     return ThemeData(
+      primarySwatch: Colors.green,
       brightness: Brightness.dark,
       appBarTheme: AppBarTheme(
         foregroundColor: Colors.white,
